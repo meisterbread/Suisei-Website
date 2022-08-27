@@ -2,6 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .white{
@@ -75,24 +76,38 @@ html,body{
     display: flex;
     justify-content: center;
 
-    padding-top: 11vh;
+    padding-top: 25vh;
 }
 
 .about img{
-    height: 105%;
+    height: 130%;
 
-    position: absolute;
-    left: 50%;
+    position: relative;
+    bottom:15%;
+    right:0%;
 }
 
 .about-border{
     border: #00A3FF;
     border-style: solid;
     border-width: 10px;
+    width: 80%;
 
     display: flex;
     justify-content: center;
     
+}
+
+.about-panel{
+
+    display: inline;
+    justify-content: center;
+}
+
+.about-panel video{
+    padding-top: 15px;
+    width: 500px;
+
 }
 
 .about-panel h1{
