@@ -8,6 +8,10 @@ html,body{
     color:white;
 }
 
+.skyblue{
+    color:#00A3FF;
+}
+
 .suisei-banner{
     background-color: #091B32;
     height: 100vh;
@@ -18,11 +22,13 @@ html,body{
 .suisei-banner h1{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
-    font-size: 6.5rem;
+    font-size: 8rem;
     letter-spacing: 4px;
 
     position: relative;
     left:1.5%;
+
+    z-index: 1;
     
 }
 
@@ -33,15 +39,15 @@ html,body{
     letter-spacing: 4px;
 
     position: relative;
-    bottom:8%;
+    bottom:10%;
     left:1.5%;
 }
 
 .suisei-banner img{
-    height: 115%;
+    height: 90%;
 
-    position: fixed;
-    top:1%;
+    position: absolute;
+    bottom:5%;
     left: 30%;
 
 }
@@ -63,3 +69,48 @@ html,body{
 .nav-panel h2:hover{
     font-size: 2.3rem;
 }
+
+.about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 11vh;
+}
+
+.about img{
+    height: 105%;
+
+    position: absolute;
+    left: 50%;
+}
+
+.about-border{
+    border: #00A3FF;
+    border-style: solid;
+    border-width: 10px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-panel h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.about-panel h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+}
+
+.about-panel p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+
+    text-align: left;
+}
+
